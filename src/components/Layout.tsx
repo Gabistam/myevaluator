@@ -1,3 +1,4 @@
+// src/components/Layout.tsx
 import React from 'react';
 import { Outlet, Link, useLocation } from 'react-router-dom';
 
@@ -5,8 +6,9 @@ export const Layout: React.FC = () => {
   const location = useLocation();
   
   return (
-    <div className="min-h-screen bg-background">
-      {/* En-tête de l'application avec navigation */}
+    // Wrapper principal qui prend toute la hauteur de la fenêtre
+    <div className="min-h-screen flex flex-col bg-background">
+      {/* En-tête fixe en haut */}
       <header className="bg-background-light shadow-lg">
         <nav className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
@@ -37,12 +39,12 @@ export const Layout: React.FC = () => {
         </nav>
       </header>
 
-      {/* Contenu principal */}
-      <main className="container mx-auto px-4 py-8">
+      {/* Contenu principal qui prend l'espace restant */}
+      <main className="flex-grow container mx-auto px-4 py-8">
         <Outlet />
       </main>
 
-      {/* Pied de page */}
+      {/* Pied de page qui reste en bas */}
       <footer className="bg-background-light mt-auto">
         <div className="container mx-auto px-4 py-4 text-center text-sm text-gray-400">
           © 2025 MyEvaluator

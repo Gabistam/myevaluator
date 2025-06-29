@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Appreciation } from '../models/types';
 import { MoreVertical, Copy, Star, Edit, Trash2 } from 'lucide-react';
+import { Toast } from './Toast';
 
 interface AppreciationCardProps {
   appreciation: Appreciation;
@@ -9,53 +10,66 @@ interface AppreciationCardProps {
 }
 
 export const AppreciationCard: React.FC<AppreciationCardProps> = ({
-  appreciation
+  appreciation,
+  onToggleFavorite // N'oublions pas d'utiliser cette prop
 }) => {
   const [showActions, setShowActions] = useState(false);
   const [showToast, setShowToast] = useState(false);
+  const [toastMessage, setToastMessage] = useState('');
 
-  // Fonction pour copier le texte, utilisée à la fois par le clic sur la carte
-  // et par le bouton du menu
+  // Fonction pour copier le texte
   const handleCopy = async (e?: React.MouseEvent) => {
-    // Si l'événement vient d'un clic, empêcher la propagation
     if (e) {
       e.stopPropagation();
     }
     
     try {
       await navigator.clipboard.writeText(appreciation.comment);
-      setShowToast(true);
-      setTimeout(() => setShowToast(false), 3000);
-      setShowActions(false); // Ferme le menu après la copie
+      setToastMessage('Texte copié dans le presse-papiers !');
+        setShowToast(true);
+      setShowActions(false);
     } catch (error) {
       console.error('Erreur lors de la copie :', error);
+      setToastMessage('Erreur lors de la copie !');
+        setShowToast(true);
     }
+  };
+
+  // Gestionnaire pour le bouton favori
+  const handleFavorite = (e: React.MouseEvent) => {
+    e.stopPropagation(); // Empêche la propagation du clic
+    onToggleFavorite(appreciation.id);
+    setShowActions(false); // Ferme le menu après l'action
   };
 
   // Gestionnaire de clic pour la carte entière
   const handleCardClick = (e: React.MouseEvent) => {
-    // Vérifie si le clic ne vient pas du menu d'actions
     if (!(e.target as HTMLElement).closest('.actions-menu')) {
       handleCopy();
     }
   };
 
-    function getLevelColor(level: string) {
-        switch (level.toLowerCase()) {
-            case 'excellent':
-                return 'bg-green-600 text-white';
-            case 'good':
-                return 'bg-blue-600 text-white';
-            case 'average':
-                return 'bg-yellow-600 text-white';
-            default:
-                return 'bg-gray-600 text-white';
-        }
-    }
+  // Fonction utilitaire pour déterminer la couleur en fonction du niveau
+  function getLevelColor(level: string): string {
+    const colors: Record<string, string> = {
+      'Exceptionnel': 'bg-green-600 text-white',
+      'Excellent': 'bg-green-500 text-white',
+      'Très bon': 'bg-blue-500 text-white',
+      'Bon': 'bg-blue-400 text-white',
+      'Satisfaisant': 'bg-blue-300 text-black',
+      'Passable': 'bg-yellow-400 text-black',
+      'Médiocre': 'bg-orange-400 text-white',
+      'Faible': 'bg-orange-500 text-white',
+      'Insuffisant': 'bg-red-500 text-white',
+      'Très insuffisant': 'bg-red-600 text-white',
+    };
+    
+    return colors[level] || 'bg-gray-500 text-white';
+  }
 
   return (
     <div className="group flex items-start gap-2 relative">
-      {/* Carte principale - maintenant cliquable */}
+      {/* Carte principale cliquable */}
       <div 
         onClick={handleCardClick}
         className="
@@ -66,7 +80,6 @@ export const AppreciationCard: React.FC<AppreciationCardProps> = ({
           group/card
         "
       >
-        {/* Indicateur de copie au survol */}
         <div className="absolute right-16 top-3 opacity-0 group-hover/card:opacity-100 transition-opacity text-sm text-gray-400">
           Cliquer pour copier
         </div>
@@ -86,7 +99,7 @@ export const AppreciationCard: React.FC<AppreciationCardProps> = ({
         </div>
       </div>
 
-      {/* Menu d'actions - maintenant dans une div avec une classe pour l'identifier */}
+      {/* Menu d'actions */}
       <div className="actions-menu">
         <button
           className={`
@@ -103,7 +116,7 @@ export const AppreciationCard: React.FC<AppreciationCardProps> = ({
           <MoreVertical size={20} />
         </button>
 
-        {/* Menu déroulant */}
+        {/* Menu déroulant avec les actions */}
         {showActions && (
           <div 
             className="
@@ -122,18 +135,46 @@ export const AppreciationCard: React.FC<AppreciationCardProps> = ({
               <span>Copier</span>
             </button>
             
-            {/* Autres boutons du menu inchangés */}
-            {/* ... */}
+            {/* Bouton Favori ajouté */}
+            <button
+              onClick={handleFavorite}
+              className="w-full px-4 py-2 flex items-center gap-2 hover:bg-primary/20 transition-colors"
+            >
+              <Star 
+                size={16} 
+                className={appreciation.isFavorite ? 'fill-yellow-300 text-yellow-300' : ''} 
+              />
+              <span>
+                {appreciation.isFavorite ? 'Retirer des favoris' : 'Ajouter aux favoris'}
+              </span>
+            </button>
+
+            {/* Actions futures (désactivées pour l'instant) */}
+            <button
+              className="w-full px-4 py-2 flex items-center gap-2 hover:bg-primary/20 transition-colors text-gray-400"
+              disabled
+            >
+              <Edit size={16} />
+              <span>Modifier</span>
+            </button>
+            
+            <button
+              className="w-full px-4 py-2 flex items-center gap-2 hover:bg-primary/20 transition-colors text-gray-400"
+              disabled
+            >
+              <Trash2 size={16} />
+              <span>Supprimer</span>
+            </button>
           </div>
         )}
       </div>
 
-      {/* Toast */}
-      {showToast && (
-        <div className="fixed bottom-4 right-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg animate-in fade-in">
-          Texte copié dans le presse-papiers !
-        </div>
-      )}
+      <Toast
+        message={toastMessage}
+        isVisible={showToast}
+        onClose={() => setShowToast(false)}
+        duration={3000} // Optionnel, valeur par défaut dans le composant
+      />
     </div>
   );
 };
