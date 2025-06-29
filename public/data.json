@@ -1,314 +1,514 @@
 {
-    "_id": "67508a74ccb03073cf97e221",
-    "categories": [
-      {
-        "id": "cat1",
-        "name": "Compétences Techniques",
-        "image": "💻",
-        "appreciations": [
-          {
-            "id": "app1",
-            "level": "Très insuffisant",
-            "comment": "Maîtrise très limitée des langages et outils de développement web fondamentaux.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app2",
-            "level": "Insuffisant",
-            "comment": "Difficultés à appliquer les concepts techniques de base, connaissances fragmentaires.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app3",
-            "level": "Faible",
-            "comment": "Compréhension partielle des technologies web, nécessite une assistance constante.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app4",
-            "level": "Médiocre",
-            "comment": "Capable de réaliser des tâches simples avec de l'aide, manque d'autonomie technique.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app5",
-            "level": "Passable",
-            "comment": "Compréhension des concepts de base, mais difficultés avec les tâches plus complexes.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app6",
-            "level": "Satisfaisant",
-            "comment": "Maîtrise adéquate des compétences techniques pour accomplir des tâches courantes.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app7",
-            "level": "Bon",
-            "comment": "Bonne compréhension et application des langages et outils de développement web.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app8",
-            "level": "Très bon",
-            "comment": "Maîtrise solide des technologies web, capable de résoudre des problèmes techniques.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app9",
-            "level": "Excellent",
-            "comment": "Excellente maîtrise des compétences techniques, intègre des solutions innovantes.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app10",
-            "level": "Exceptionnel",
-            "comment": "Expertise technique remarquable, apporte des contributions significatives et innovantes au développement web.",
-            "isFavorite": false,
-            "userId": null
-          }
-        ]
-      },
-      {
-        "id": "cat2",
-        "name": "Créativité et Innovation",
-        "image": "💡",
-        "appreciations": [
-          {
-            "id": "app11",
-            "level": "Très insuffisant",
-            "comment": "Manque de créativité, idées souvent copiées ou banales.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app12",
-            "level": "Insuffisant",
-            "comment": "Propose rarement des idées nouvelles, approche peu imaginative.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app13",
-            "level": "Faible",
-            "comment": "Créativité limitée, difficultés à sortir des solutions conventionnelles.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app14",
-            "level": "Médiocre",
-            "comment": "Quelques tentatives d'innovation, mais reste généralement dans des schémas connus.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app15",
-            "level": "Passable",
-            "comment": "Montre des signes de créativité, hésite à expérimenter de nouvelles idées.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app16",
-            "level": "Satisfaisant",
-            "comment": "Propose des idées originales occasionnellement, approche parfois innovante.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app17",
-            "level": "Bon",
-            "comment": "Fait preuve de créativité, propose régulièrement des solutions innovantes.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app18",
-            "level": "Très bon",
-            "comment": "Grande créativité, développe des idées originales qui enrichissent les projets.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app19",
-            "level": "Excellent",
-            "comment": "Créativité exceptionnelle, apporte des innovations significatives et impactantes.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app20",
-            "level": "Exceptionnel",
-            "comment": "Visionnaire, révolutionne les approches traditionnelles avec des idées novatrices remarquables.",
-            "isFavorite": false,
-            "userId": null
-          }
-        ]
-      },
-      {
-        "id": "cat21",
-        "name": "Motivation",
-        "image": "🔥",
-        "appreciations": [
-          {
-            "id": "app201",
-            "level": "Très insuffisant",
-            "comment": "Montre un manque total de motivation, aucune implication dans les activités.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app202",
-            "level": "Insuffisant",
-            "comment": "Motivation faible, participe rarement aux tâches demandées.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app203",
-            "level": "Faible",
-            "comment": "Motivation limitée, besoin d'encouragements pour s'impliquer.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app204",
-            "level": "Médiocre",
-            "comment": "Motivation inégale, s'implique occasionnellement.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app205",
-            "level": "Passable",
-            "comment": "Motivation acceptable, participe aux activités avec encouragement.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app206",
-            "level": "Satisfaisant",
-            "comment": "Bonne motivation, s'implique régulièrement dans les tâches.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app207",
-            "level": "Bon",
-            "comment": "Motivation notable, prend des initiatives et s'investit.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app208",
-            "level": "Très bon",
-            "comment": "Motivation élevée, démontre un fort engagement.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app209",
-            "level": "Excellent",
-            "comment": "Motivation remarquable, dépasse les attentes régulièrement.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app210",
-            "level": "Exceptionnel",
-            "comment": "Motivation exceptionnelle, s'engage avec passion et inspire les autres.",
-            "isFavorite": false,
-            "userId": null
-          }
-        ]
-      },
-      {
-        "id": "cat22",
-        "name": "Participation",
-        "image": "🗣️",
-        "appreciations": [
-          {
-            "id": "app211",
-            "level": "Très insuffisant",
-            "comment": "Ne participe jamais aux discussions, absent des activités de groupe.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app212",
-            "level": "Insuffisant",
-            "comment": "Participation rare, contributions minimales en classe.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app213",
-            "level": "Faible",
-            "comment": "Participation limitée, intervient seulement lorsqu'interrogé.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app214",
-            "level": "Médiocre",
-            "comment": "Participation irrégulière, s'implique peu dans les échanges.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app215",
-            "level": "Passable",
-            "comment": "Participation acceptable, intervient occasionnellement.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app216",
-            "level": "Satisfaisant",
-            "comment": "Bonne participation, contribue régulièrement aux discussions.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app217",
-            "level": "Bon",
-            "comment": "Participation active, partage des idées pertinentes.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app218",
-            "level": "Très bon",
-            "comment": "Participation engagée, enrichit les échanges de manière significative.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app219",
-            "level": "Excellent",
-            "comment": "Participation exemplaire, influence positivement le groupe.",
-            "isFavorite": false,
-            "userId": null
-          },
-          {
-            "id": "app220",
-            "level": "Exceptionnel",
-            "comment": "Participation excellente, dynamise les discussions et inspire ses pairs.",
-            "isFavorite": false,
-            "userId": null
-          }
-        ]
-      }
-    ]
-  }
-  
+  "_id": "67508a74ccb03073cf97e221",
+  "categories": [
+        {
+      "id": "cat0",
+      "name": "Générale",
+      "image": "🌐",
+      "appreciations": [
+        { "id": "app1",  "level": "Absent",             "comment": "Aucune implication constatée dans les activités proposées.", "isFavorite": false, "userId": null },
+        { "id": "app2",  "level": "Très insuffisant",   "comment": "Participation très faible, difficultés à s'intégrer dans le groupe.", "isFavorite": false, "userId": null },
+        { "id": "app3",  "level": "Insuffisant",        "comment": "Peu d'engagement, résultats en deçà des attentes.", "isFavorite": false, "userId": null },
+        { "id": "app4",  "level": "Critique",           "comment": "Rencontre des difficultés majeures à suivre le rythme du programme.", "isFavorite": false, "userId": null },
+        { "id": "app5",  "level": "Très faible",        "comment": "Manque d'autonomie et de motivation dans la réalisation des tâches.", "isFavorite": false, "userId": null },
+        { "id": "app6",  "level": "Faible",             "comment": "Résultats faibles, nécessite un accompagnement régulier.", "isFavorite": false, "userId": null },
+        { "id": "app7",  "level": "Médiocre",           "comment": "Difficultés à atteindre les objectifs fixés, implication limitée.", "isFavorite": false, "userId": null },
+        { "id": "app8",  "level": "Irrégulier",         "comment": "Implication et résultats très variables selon les périodes.", "isFavorite": false, "userId": null },
+        { "id": "app9",  "level": "Limité",             "comment": "Participation limitée, résultats parfois insuffisants.", "isFavorite": false, "userId": null },
+        { "id": "app10", "level": "Passable –",         "comment": "Fait le minimum requis, sans réelle prise d'initiative.", "isFavorite": false, "userId": null },
+        { "id": "app11", "level": "Passable",           "comment": "Travail correct mais manque d'approfondissement.", "isFavorite": false, "userId": null },
+        { "id": "app12", "level": "Passable +",         "comment": "Commence à s'impliquer davantage, résultats en légère progression.", "isFavorite": false, "userId": null },
+        { "id": "app13", "level": "Acceptable",         "comment": "Résultats acceptables, répond aux attentes de base.", "isFavorite": false, "userId": null },
+        { "id": "app14", "level": "En progrès",         "comment": "Montre des signes d'amélioration et d'implication.", "isFavorite": false, "userId": null },
+        { "id": "app15", "level": "Modeste",            "comment": "Progrès modestes mais réguliers, attitude positive.", "isFavorite": false, "userId": null },
+        { "id": "app16", "level": "Correct",            "comment": "Travail correct, respecte les consignes et les délais.", "isFavorite": false, "userId": null },
+        { "id": "app17", "level": "Correct +",          "comment": "Résultats satisfaisants, implication croissante.", "isFavorite": false, "userId": null },
+        { "id": "app18", "level": "Stable",             "comment": "Travail stable, attitude professionnelle et régulière.", "isFavorite": false, "userId": null },
+        { "id": "app19", "level": "Satisfaisant –",     "comment": "Bonne volonté, résultats parfois en dessous du potentiel.", "isFavorite": false, "userId": null },
+        { "id": "app20", "level": "Satisfaisant",       "comment": "Travail satisfaisant, répond aux attentes du programme.", "isFavorite": false, "userId": null },
+        { "id": "app21", "level": "Satisfaisant +",     "comment": "Implication régulière, résultats solides.", "isFavorite": false, "userId": null },
+        { "id": "app22", "level": "Fiable",             "comment": "On peut compter sur lui/elle pour un travail sérieux et constant.", "isFavorite": false, "userId": null },
+        { "id": "app23", "level": "Responsable",        "comment": "Prend ses responsabilités au sérieux, attitude constructive.", "isFavorite": false, "userId": null },
+        { "id": "app24", "level": "Assez bon",          "comment": "Résultats globalement bons, implication appréciée.", "isFavorite": false, "userId": null },
+        { "id": "app25", "level": "Bon",                "comment": "Travail de qualité, participation active.", "isFavorite": false, "userId": null },
+        { "id": "app26", "level": "Bon +",              "comment": "Résultats très satisfaisants, attitude positive et dynamique.", "isFavorite": false, "userId": null },
+        { "id": "app27", "level": "Méthodique",         "comment": "Travail organisé, suit une méthode efficace.", "isFavorite": false, "userId": null },
+        { "id": "app28", "level": "Appliqué",           "comment": "S'investit pleinement dans les tâches confiées.", "isFavorite": false, "userId": null },
+        { "id": "app29", "level": "Plutôt bon",         "comment": "Résultats au-dessus de la moyenne, implication notable.", "isFavorite": false, "userId": null },
+        { "id": "app30", "level": "Plutôt bon +",       "comment": "Travail soigné, va souvent au-delà des attentes.", "isFavorite": false, "userId": null },
+        { "id": "app31", "level": "Très satisfaisant",  "comment": "Travail remarquable, attitude exemplaire.", "isFavorite": false, "userId": null },
+        { "id": "app32", "level": "Très bon",           "comment": "Très bon niveau général, implication constante.", "isFavorite": false, "userId": null },
+        { "id": "app33", "level": "Très bon +",         "comment": "Résultats excellents, attitude proactive.", "isFavorite": false, "userId": null },
+        { "id": "app34", "level": "Remarquable",        "comment": "Travail remarquable, inspire ses pairs par son sérieux.", "isFavorite": false, "userId": null },
+        { "id": "app35", "level": "Avancé",             "comment": "Montre une grande autonomie et une forte capacité d'adaptation.", "isFavorite": false, "userId": null },
+        { "id": "app36", "level": "Engagé",             "comment": "Toujours engagé dans les activités, attitude positive.", "isFavorite": false, "userId": null },
+        { "id": "app37", "level": "Exemplaire",         "comment": "Comportement exemplaire, contribue activement à la dynamique du groupe.", "isFavorite": false, "userId": null },
+        { "id": "app38", "level": "Exceptionnel",       "comment": "Travail exceptionnel, dépasse largement les attentes.", "isFavorite": false, "userId": null },
+        { "id": "app39", "level": "Inspirant",          "comment": "Inspire ses pairs par son implication et sa motivation.", "isFavorite": false, "userId": null },
+        { "id": "app40", "level": "Légendaire",         "comment": "Référence pour tous, attitude et résultats hors du commun.", "isFavorite": false, "userId": null },
+        { "id": "app41", "level": "En construction",    "comment": "En phase d'apprentissage, montre une volonté de progresser.", "isFavorite": false, "userId": null },
+        { "id": "app42", "level": "En observation",     "comment": "Phase d'observation, potentiel à confirmer.", "isFavorite": false, "userId": null },
+        { "id": "app43", "level": "En adaptation",      "comment": "S'adapte progressivement aux exigences du programme.", "isFavorite": false, "userId": null },
+        { "id": "app44", "level": "En évolution",       "comment": "Montre une évolution positive dans son parcours.", "isFavorite": false, "userId": null },
+        { "id": "app45", "level": "En autonomie",       "comment": "Gagne en autonomie, prend des initiatives pertinentes.", "isFavorite": false, "userId": null },
+        { "id": "app46", "level": "En collaboration",   "comment": "Travaille efficacement en équipe, favorise la coopération.", "isFavorite": false, "userId": null },
+        { "id": "app47", "level": "En soutien",         "comment": "Apporte un soutien apprécié à ses pairs.", "isFavorite": false, "userId": null },
+        { "id": "app48", "level": "En leadership",      "comment": "Montre des qualités de leadership dans les projets collectifs.", "isFavorite": false, "userId": null },
+        { "id": "app49", "level": "En créativité",      "comment": "Fait preuve de créativité dans la résolution de problèmes.", "isFavorite": false, "userId": null },
+        { "id": "app50", "level": "En communication",   "comment": "Communique efficacement, favorise les échanges constructifs.", "isFavorite": false, "userId": null }
+      ]
+    },
+
+
+    {
+      "id": "cat1",
+      "name": "Compétences Techniques",
+      "image": "💻",
+      "appreciations": [
+        { "id": "app1", "level": "Catastrophique", "comment": "Aucune compétence technique démontrée, incapable d'utiliser les outils de base.", "isFavorite": false, "userId": null },
+        { "id": "app2", "level": "Dramatique", "comment": "Erreurs majeures récurrentes, ne comprend pas les fondamentaux techniques.", "isFavorite": false, "userId": null },
+        { "id": "app3", "level": "Critique", "comment": "Compétences techniques très insuffisantes, nécessite une supervision constante.", "isFavorite": false, "userId": null },
+        { "id": "app4", "level": "Très insuffisant", "comment": "Difficulté à réaliser les tâches techniques les plus simples.", "isFavorite": false, "userId": null },
+        { "id": "app5", "level": "Insuffisant", "comment": "Manque de maîtrise des outils et des méthodes de base.", "isFavorite": false, "userId": null },
+        { "id": "app6", "level": "Très faible", "comment": "Compétences techniques très limitées, progrès nécessaires pour suivre le rythme.", "isFavorite": false, "userId": null },
+        { "id": "app7", "level": "Faible", "comment": "Difficultés à appliquer les consignes techniques, erreurs fréquentes.", "isFavorite": false, "userId": null },
+        { "id": "app8", "level": "Médiocre", "comment": "Résultats techniques médiocres, manque de rigueur dans l'exécution.", "isFavorite": false, "userId": null },
+        { "id": "app9", "level": "Limité", "comment": "Compétences limitées à quelques domaines, manque de polyvalence.", "isFavorite": false, "userId": null },
+        { "id": "app10", "level": "Passable –", "comment": "Réalise les tâches techniques minimales, sans approfondissement.", "isFavorite": false, "userId": null },
+        { "id": "app11", "level": "Passable", "comment": "Compétences techniques suffisantes pour le strict nécessaire.", "isFavorite": false, "userId": null },
+        { "id": "app12", "level": "Passable +", "comment": "Commence à maîtriser certains outils, mais reste hésitant.", "isFavorite": false, "userId": null },
+        { "id": "app13", "level": "Acceptable", "comment": "Compétences techniques acceptables, résultats conformes aux attentes de base.", "isFavorite": false, "userId": null },
+        { "id": "app14", "level": "En progrès", "comment": "Montre des progrès techniques, apprend de ses erreurs.", "isFavorite": false, "userId": null },
+        { "id": "app15", "level": "Modeste", "comment": "Progrès modestes dans la maîtrise technique, attitude positive.", "isFavorite": false, "userId": null },
+        { "id": "app16", "level": "Correct", "comment": "Compétences techniques correctes, sait appliquer les méthodes enseignées.", "isFavorite": false, "userId": null },
+        { "id": "app17", "level": "Correct +", "comment": "Maîtrise croissante des outils techniques, résultats fiables.", "isFavorite": false, "userId": null },
+        { "id": "app18", "level": "Stable", "comment": "Compétences techniques stables, sait résoudre les problèmes courants.", "isFavorite": false, "userId": null },
+        { "id": "app19", "level": "Satisfaisant –", "comment": "Compétences techniques satisfaisantes, mais manque parfois de précision.", "isFavorite": false, "userId": null },
+        { "id": "app20", "level": "Satisfaisant", "comment": "Maîtrise les outils et méthodes nécessaires, résultats conformes.", "isFavorite": false, "userId": null },
+        { "id": "app21", "level": "Satisfaisant +", "comment": "Compétences techniques solides, sait s'adapter à de nouveaux outils.", "isFavorite": false, "userId": null },
+        { "id": "app22", "level": "Fiable", "comment": "Compétences fiables, exécute les tâches techniques sans erreur.", "isFavorite": false, "userId": null },
+        { "id": "app23", "level": "Responsable", "comment": "Prend en charge les aspects techniques avec sérieux et autonomie.", "isFavorite": false, "userId": null },
+        { "id": "app24", "level": "Assez bon", "comment": "Compétences techniques globalement bonnes, sait aider ses pairs.", "isFavorite": false, "userId": null },
+        { "id": "app25", "level": "Bon", "comment": "Bon niveau technique, maîtrise les outils avancés.", "isFavorite": false, "userId": null },
+        { "id": "app26", "level": "Bon +", "comment": "Très bon niveau technique, sait optimiser les méthodes de travail.", "isFavorite": false, "userId": null },
+        { "id": "app27", "level": "Méthodique", "comment": "Travail technique structuré, suit une démarche rigoureuse.", "isFavorite": false, "userId": null },
+        { "id": "app28", "level": "Appliqué", "comment": "S'investit dans l'apprentissage technique, résultats appliqués.", "isFavorite": false, "userId": null },
+        { "id": "app29", "level": "Plutôt bon", "comment": "Compétences techniques au-dessus de la moyenne, implication notable.", "isFavorite": false, "userId": null },
+        { "id": "app30", "level": "Plutôt bon +", "comment": "Travail technique soigné, va souvent au-delà des attentes.", "isFavorite": false, "userId": null },
+        { "id": "app31", "level": "Très satisfaisant", "comment": "Travail technique remarquable, attitude exemplaire.", "isFavorite": false, "userId": null },
+        { "id": "app32", "level": "Très bon", "comment": "Très bon niveau technique, sait résoudre des problèmes complexes.", "isFavorite": false, "userId": null },
+        { "id": "app33", "level": "Très bon +", "comment": "Compétences techniques excellentes, propose des solutions innovantes.", "isFavorite": false, "userId": null },
+        { "id": "app34", "level": "Remarquable", "comment": "Travail technique remarquable, inspire ses pairs par sa maîtrise.", "isFavorite": false, "userId": null },
+        { "id": "app35", "level": "Avancé", "comment": "Compétences techniques avancées, maîtrise des outils spécialisés.", "isFavorite": false, "userId": null },
+        { "id": "app36", "level": "Engagé", "comment": "Toujours engagé dans l'amélioration technique, attitude proactive.", "isFavorite": false, "userId": null },
+        { "id": "app37", "level": "Exemplaire", "comment": "Compétences techniques exemplaires, référence pour le groupe.", "isFavorite": false, "userId": null },
+        { "id": "app38", "level": "Exceptionnel", "comment": "Compétences techniques exceptionnelles, dépasse largement les attentes.", "isFavorite": false, "userId": null },
+        { "id": "app39", "level": "Inspirant", "comment": "Inspire ses pairs par sa maîtrise technique et sa pédagogie.", "isFavorite": false, "userId": null },
+        { "id": "app40", "level": "Légendaire", "comment": "Référence technique absolue, compétences hors du commun.", "isFavorite": false, "userId": null },
+        { "id": "app41", "level": "En construction", "comment": "En phase d'apprentissage technique, montre une volonté de progresser.", "isFavorite": false, "userId": null },
+        { "id": "app42", "level": "En observation", "comment": "Phase d'observation, potentiel technique à confirmer.", "isFavorite": false, "userId": null },
+        { "id": "app43", "level": "En adaptation", "comment": "S'adapte progressivement aux exigences techniques du projet.", "isFavorite": false, "userId": null },
+        { "id": "app44", "level": "En évolution", "comment": "Montre une évolution positive dans ses compétences techniques.", "isFavorite": false, "userId": null },
+        { "id": "app45", "level": "En autonomie", "comment": "Gagne en autonomie technique, prend des initiatives pertinentes.", "isFavorite": false, "userId": null },
+        { "id": "app46", "level": "En collaboration", "comment": "Travaille efficacement en équipe sur les aspects techniques.", "isFavorite": false, "userId": null },
+        { "id": "app47", "level": "En soutien", "comment": "Apporte un soutien technique apprécié à ses pairs.", "isFavorite": false, "userId": null },
+        { "id": "app48", "level": "En leadership", "comment": "Montre des qualités de leadership technique dans les projets collectifs.", "isFavorite": false, "userId": null },
+        { "id": "app49", "level": "En créativité", "comment": "Fait preuve de créativité dans la résolution de problèmes techniques.", "isFavorite": false, "userId": null },
+        { "id": "app50", "level": "En communication", "comment": "Communique efficacement sur les aspects techniques, favorise la compréhension collective.", "isFavorite": false, "userId": null }
+      ]
+    },
+
+    {
+      "id": "cat2",
+      "name": "Créativité et Innovation",
+      "image": "💡",
+      "appreciations": [
+        { "id": "app1",  "level": "Catastrophique",      "comment": "Aucune idée nouvelle, absence totale d’initiative créative, se contente d’exécuter sans réfléchir.", "isFavorite": false, "userId": null },
+        { "id": "app2",  "level": "Dramatique",          "comment": "Ne propose jamais de solutions originales, bloque face à toute demande d’innovation.", "isFavorite": false, "userId": null },
+        { "id": "app3",  "level": "Critique",            "comment": "Manque d’imagination flagrant, refuse de sortir des sentiers battus même sous encouragement.", "isFavorite": false, "userId": null },
+        { "id": "app4",  "level": "Très insuffisant",    "comment": "Idées rares et peu pertinentes, ne s’implique pas dans la recherche de solutions créatives.", "isFavorite": false, "userId": null },
+        { "id": "app5",  "level": "Insuffisant",         "comment": "Difficulté à imaginer des alternatives, se limite à reproduire ce qui existe déjà.", "isFavorite": false, "userId": null },
+        { "id": "app6",  "level": "Très faible",         "comment": "Peu d’initiatives, idées peu originales et rarement utiles au projet.", "isFavorite": false, "userId": null },
+        { "id": "app7",  "level": "Faible",              "comment": "Propose parfois des idées, mais manque d’audace et d’originalité.", "isFavorite": false, "userId": null },
+        { "id": "app8",  "level": "Médiocre",            "comment": "Créativité limitée, se contente de suivre les instructions sans chercher à innover.", "isFavorite": false, "userId": null },
+        { "id": "app9",  "level": "Limité",              "comment": "Quelques tentatives d’innovation, mais manque de pertinence ou de réalisme.", "isFavorite": false, "userId": null },
+        { "id": "app10", "level": "Passable –",          "comment": "Idées parfois intéressantes, mais rarement abouties ou exploitées.", "isFavorite": false, "userId": null },
+        { "id": "app11", "level": "Passable",            "comment": "Fait preuve d’un minimum de créativité, mais reste dans une zone de confort.", "isFavorite": false, "userId": null },
+        { "id": "app12", "level": "Passable +",          "comment": "Commence à proposer des pistes originales, mais hésite à les défendre.", "isFavorite": false, "userId": null },
+        { "id": "app13", "level": "Acceptable",          "comment": "Idées acceptables, parfois innovantes mais manque d’approfondissement.", "isFavorite": false, "userId": null },
+        { "id": "app14", "level": "En progrès",          "comment": "Montre des efforts pour sortir des schémas classiques, créativité en développement.", "isFavorite": false, "userId": null },
+        { "id": "app15", "level": "Modeste",             "comment": "Propose des idées simples mais utiles, commence à s’ouvrir à l’innovation.", "isFavorite": false, "userId": null },
+        { "id": "app16", "level": "Correct",             "comment": "Créativité correcte, sait parfois apporter une touche personnelle aux projets.", "isFavorite": false, "userId": null },
+        { "id": "app17", "level": "Correct +",           "comment": "Idées intéressantes et applicables, commence à prendre des initiatives créatives.", "isFavorite": false, "userId": null },
+        { "id": "app18", "level": "Stable",              "comment": "Propose régulièrement des solutions originales, créativité stable et fiable.", "isFavorite": false, "userId": null },
+        { "id": "app19", "level": "Satisfaisant –",      "comment": "Bonne volonté créative, mais manque parfois de pertinence ou de réalisme.", "isFavorite": false, "userId": null },
+        { "id": "app20", "level": "Satisfaisant",        "comment": "Propose des idées innovantes, sait s’adapter et rebondir sur les suggestions du groupe.", "isFavorite": false, "userId": null },
+        { "id": "app21", "level": "Satisfaisant +",      "comment": "Créativité affirmée, apporte des solutions originales et utiles au projet.", "isFavorite": false, "userId": null },
+        { "id": "app22", "level": "Fiable",              "comment": "Toujours force de proposition, ses idées sont souvent retenues et appréciées.", "isFavorite": false, "userId": null },
+        { "id": "app23", "level": "Responsable",         "comment": "Prend des initiatives créatives et les mène à bien avec sérieux.", "isFavorite": false, "userId": null },
+        { "id": "app24", "level": "Assez bon",           "comment": "Créativité régulière, sait transformer les contraintes en opportunités d’innovation.", "isFavorite": false, "userId": null },
+        { "id": "app25", "level": "Bon",                 "comment": "Propose des idées originales et pertinentes, contribue activement à l’innovation.", "isFavorite": false, "userId": null },
+        { "id": "app26", "level": "Bon +",               "comment": "Créativité dynamique, sait fédérer autour de ses idées et les concrétiser.", "isFavorite": false, "userId": null },
+        { "id": "app27", "level": "Méthodique",          "comment": "Aborde la créativité de façon structurée, sait organiser des séances d’idéation efficaces.", "isFavorite": false, "userId": null },
+        { "id": "app28", "level": "Appliqué",            "comment": "Met en œuvre ses idées avec rigueur, créativité appliquée et productive.", "isFavorite": false, "userId": null },
+        { "id": "app29", "level": "Plutôt bon",          "comment": "Créativité forte, propose des concepts novateurs et sait convaincre le groupe.", "isFavorite": false, "userId": null },
+        { "id": "app30", "level": "Plutôt bon +",        "comment": "Toujours prêt à innover, ses idées font avancer le projet de façon significative.", "isFavorite": false, "userId": null },
+        { "id": "app31", "level": "Très satisfaisant",   "comment": "Créativité remarquable, sait transformer les idées en solutions concrètes et efficaces.", "isFavorite": false, "userId": null },
+        { "id": "app32", "level": "Très bon",            "comment": "Très créatif, propose des innovations qui font la différence dans le projet.", "isFavorite": false, "userId": null },
+        { "id": "app33", "level": "Très bon +",          "comment": "Créativité exemplaire, inspire les autres à sortir des sentiers battus.", "isFavorite": false, "userId": null },
+        { "id": "app34", "level": "Remarquable",         "comment": "Créativité remarquable, sait générer des idées originales et les mettre en œuvre avec succès.", "isFavorite": false, "userId": null },
+        { "id": "app35", "level": "Avancé",              "comment": "Créativité avancée, propose des solutions innovantes à des problèmes complexes.", "isFavorite": false, "userId": null },
+        { "id": "app36", "level": "Engagé",              "comment": "Toujours engagé dans la recherche d’innovation, stimule la créativité du groupe.", "isFavorite": false, "userId": null },
+        { "id": "app37", "level": "Exemplaire",          "comment": "Créativité exemplaire, ses idées transforment durablement les projets.", "isFavorite": false, "userId": null },
+        { "id": "app38", "level": "Exceptionnel",        "comment": "Créativité exceptionnelle, apporte des solutions inédites et inspirantes.", "isFavorite": false, "userId": null },
+        { "id": "app39", "level": "Inspirant",           "comment": "Sa créativité inspire et entraîne durablement l’équipe vers l’innovation.", "isFavorite": false, "userId": null },
+        { "id": "app40", "level": "Légendaire",          "comment": "Créativité hors norme, référence absolue pour tous en matière d’innovation et d’audace.", "isFavorite": false, "userId": null }
+      ]
+    },
+
+    {
+      "id": "cat3",
+      "name": "Rigueur & Fiabilité",
+      "image": "🛡️",
+      "appreciations": [
+        { "id": "app1",  "level": "Catastrophique",      "comment": "Ignore totalement les bonnes pratiques ; livrables incomplets, erreurs majeures récurrentes, délais systématiquement manqués.", "isFavorite": false, "userId": null },
+        { "id": "app2",  "level": "Dramatique",          "comment": "Prévisibilité très faible ; nécessite un suivi permanent pour atteindre un niveau minimal de qualité.",                     "isFavorite": false, "userId": null },
+        { "id": "app3",  "level": "Critique",            "comment": "Nombreuses omissions et incohérences ; corrections urgentes fréquentes pour maintenir le projet à flot.",                 "isFavorite": false, "userId": null },
+        { "id": "app4",  "level": "Très insuffisant",    "comment": "Compréhension limitée des attentes ; respecte rarement le planning ou les standards définis.",                            "isFavorite": false, "userId": null },
+        { "id": "app5",  "level": "Insuffisant",         "comment": "Production inconstante, retards fréquents et documentation lacunaire.",                                                 "isFavorite": false, "userId": null },
+        { "id": "app6",  "level": "Très faible",         "comment": "Qualité irrégulière ; nécessite des révisions approfondies avant toute validation.",                                     "isFavorite": false, "userId": null },
+        { "id": "app7",  "level": "Faible",              "comment": "Suit partiellement les directives ; livrables acceptables uniquement après retouches.",                                  "isFavorite": false, "userId": null },
+        { "id": "app8",  "level": "Médiocre",            "comment": "Respect des consignes sous forte supervision ; fiabilité faible.",                                                       "isFavorite": false, "userId": null },
+        { "id": "app9",  "level": "Limité",              "comment": "Suit l’essentiel des procédures, mais la cohérence reste perfectible.",                                                  "isFavorite": false, "userId": null },
+        { "id": "app10", "level": "Passable –",          "comment": "Livrables utilisables mais nécessitant souvent des ajustements de dernière minute.",                                     "isFavorite": false, "userId": null },
+        { "id": "app11", "level": "Passable",            "comment": "Comprend l’importance des bonnes pratiques, mais les applique de façon intermittente.",                                 "isFavorite": false, "userId": null },
+        { "id": "app12", "level": "Passable +",          "comment": "Délais généralement tenus ; quelques affinages requis pour atteindre la qualité attendue.",                              "isFavorite": false, "userId": null },
+        { "id": "app13", "level": "Acceptable",          "comment": "Adhère aux processus clés ; manque parfois de rigueur dans les détails.",                                                "isFavorite": false, "userId": null },
+        { "id": "app14", "level": "En progrès",          "comment": "Montre une volonté d’amélioration continue et intègre progressivement les retours.",                                     "isFavorite": false, "userId": null },
+        { "id": "app15", "level": "Modeste",             "comment": "Livrables organisés, communication correcte, fiabilité en hausse.",                                                     "isFavorite": false, "userId": null },
+        { "id": "app16", "level": "Correct",             "comment": "Suit les standards convenus ; produit des livrables cohérents et documentés.",                                          "isFavorite": false, "userId": null },
+        { "id": "app17", "level": "Correct +",           "comment": "Respecte la plupart des échéances ; qualité régulièrement au rendez-vous.",                                             "isFavorite": false, "userId": null },
+        { "id": "app18", "level": "Fiable",              "comment": "Planifie efficacement ; anticipe les risques, livrables stables et bien présentés.",                                    "isFavorite": false, "userId": null },
+        { "id": "app19", "level": "Satisfaisant –",      "comment": "Bonne organisation ; quelques écarts mais transparence sur les problèmes rencontrés.",                                   "isFavorite": false, "userId": null },
+        { "id": "app20", "level": "Satisfaisant",        "comment": "Livraisons constantes, procédures respectées, retours globalement positifs.",                                           "isFavorite": false, "userId": null },
+        { "id": "app21", "level": "Satisfaisant +",      "comment": "Améliore activement les workflows et réduit les révisions nécessaires.",                                                "isFavorite": false, "userId": null },
+        { "id": "app22", "level": "En amélioration",     "comment": "Cherche à optimiser ses méthodes ; implémente les feedbacks rapidement.",                                               "isFavorite": false, "userId": null },
+        { "id": "app23", "level": "Assez bon",           "comment": "Livrables de qualité, communication proactive, délais maîtrisés.",                                                     "isFavorite": false, "userId": null },
+        { "id": "app24", "level": "Bon",                 "comment": "Applique rigoureusement les standards ; fiabilité reconnue par l’équipe.",                                             "isFavorite": false, "userId": null },
+        { "id": "app25", "level": "Bon +",               "comment": "Précision et constance élevées ; partage volontiers les bonnes pratiques.",                                            "isFavorite": false, "userId": null },
+        { "id": "app26", "level": "Approfondi",          "comment": "Analyse les risques et propose des correctifs avant qu’ils n’impactent le projet.",                                    "isFavorite": false, "userId": null },
+        { "id": "app27", "level": "Compétent",           "comment": "Planifie et exécute avec minutie ; documente clairement son travail.",                                                 "isFavorite": false, "userId": null },
+        { "id": "app28", "level": "Compétent +",         "comment": "Met en place des indicateurs de qualité et suit leur évolution.",                                                      "isFavorite": false, "userId": null },
+        { "id": "app29", "level": "Plutôt bon",          "comment": "Gère plusieurs tâches sans sacrifier la qualité ; adapte les processus selon les besoins.",                             "isFavorite": false, "userId": null },
+        { "id": "app30", "level": "Plutôt bon +",        "comment": "Améliorations mesurables sur la fiabilité globale des livrables.",                                                    "isFavorite": false, "userId": null },
+        { "id": "app31", "level": "Très satisfaisant",   "comment": "Rarement pris en défaut ; ses livraisons servent de référence pour l’équipe.",                                         "isFavorite": false, "userId": null },
+        { "id": "app32", "level": "Très bon",            "comment": "Anticipe les besoins, optimise le timing, retours très favorables des parties prenantes.",                             "isFavorite": false, "userId": null },
+        { "id": "app33", "level": "Très bon +",          "comment": "Diffuse une culture de qualité autour de lui ; leadership reconnu en matière de rigueur.",                              "isFavorite": false, "userId": null },
+        { "id": "app34", "level": "Remarquable",         "comment": "Met en place des workflows robustes ; incidents quasi inexistants.",                                                  "isFavorite": false, "userId": null },
+        { "id": "app35", "level": "Avancé",              "comment": "Établit des standards qui améliorent l’efficience collective.",                                                       "isFavorite": false, "userId": null },
+        { "id": "app36", "level": "Quasi excellent",     "comment": "Livrables impeccables et ponctuels, même en contexte de forte pression.",                                            "isFavorite": false, "userId": null },
+        { "id": "app37", "level": "Excellent",           "comment": "Fiabilité exemplaire ; améliore continuellement les processus avec succès.",                                          "isFavorite": false, "userId": null },
+        { "id": "app38", "level": "Exceptionnel",        "comment": "Éradique les défauts récurrents et transforme durablement la qualité des projets.",                                    "isFavorite": false, "userId": null },
+        { "id": "app39", "level": "Extraordinaire",      "comment": "Référence de sérieux et de rigueur ; entraîne l’ensemble de l’organisation vers l’excellence.",                         "isFavorite": false, "userId": null },
+        { "id": "app40", "level": "Légendaire",          "comment": "Repousse les limites de la fiabilité ; modèle reconnu et recherché pour les missions critiques.",                      "isFavorite": false, "userId": null }
+      ]
+    },
+    
+
+
+
+    {
+      "id": "cat4",
+      "name": "Rigueur & Fiabilité - Non Tech",
+      "image": "💬",
+      "appreciations": [
+        { "id": "app1",  "level": "Catastrophique",      "comment": "Travail inexploit-able ; oublis, erreurs et retards constants.",                                      "isFavorite": false, "userId": null },
+        { "id": "app2",  "level": "Dramatique",          "comment": "Doit être repris de A à Z ; fiabilité quasi nulle.",                                                "isFavorite": false, "userId": null },
+        { "id": "app3",  "level": "Critique",            "comment": "Nombreux manquements majeurs ; nécessite un suivi permanent.",                                       "isFavorite": false, "userId": null },
+        { "id": "app4",  "level": "Très insuffisant",    "comment": "Comprend mal les attentes ; délais rarement respectés.",                                            "isFavorite": false, "userId": null },
+        { "id": "app5",  "level": "Insuffisant",         "comment": "Travail souvent incomplet ou imprécis ; corrections fréquentes.",                                   "isFavorite": false, "userId": null },
+        { "id": "app6",  "level": "Très faible",         "comment": "Résultats irréguliers ; a besoin d’un accompagnement rapproché.",                                    "isFavorite": false, "userId": null },
+        { "id": "app7",  "level": "Faible",              "comment": "Suit partiellement les consignes ; nombreuses retouches nécessaires.",                               "isFavorite": false, "userId": null },
+        { "id": "app8",  "level": "Médiocre",            "comment": "Rend un travail basique sous surveillance constante.",                                              "isFavorite": false, "userId": null },
+        { "id": "app9",  "level": "Limité",              "comment": "Fait le minimum requis mais manque de cohérence.",                                                  "isFavorite": false, "userId": null },
+        { "id": "app10", "level": "Passable –",          "comment": "Livrables utilisables, mais souvent à ajuster en dernière minute.",                                  "isFavorite": false, "userId": null },
+        { "id": "app11", "level": "Passable",            "comment": "Suit l’essentiel des attentes, avec quelques écarts de qualité.",                                   "isFavorite": false, "userId": null },
+        { "id": "app12", "level": "Passable +",          "comment": "Délais tenus, qualité correcte ; quelques détails à peaufiner.",                                     "isFavorite": false, "userId": null },
+        { "id": "app13", "level": "Acceptable",          "comment": "Travail conforme dans l’ensemble, malgré de rares oublis.",                                         "isFavorite": false, "userId": null },
+        { "id": "app14", "level": "En progrès",          "comment": "Montre de réels efforts ; applique de mieux en mieux les retours.",                                 "isFavorite": false, "userId": null },
+        { "id": "app15", "level": "Modeste",             "comment": "Organisation simple mais efficace, livrables soignés.",                                             "isFavorite": false, "userId": null },
+        { "id": "app16", "level": "Correct",             "comment": "Rend un travail fiable ; respecte les consignes et les délais.",                                     "isFavorite": false, "userId": null },
+        { "id": "app17", "level": "Correct +",           "comment": "Qualité régulière ; anticipe les petites incohérences.",                                            "isFavorite": false, "userId": null },
+        { "id": "app18", "level": "Fiable",              "comment": "Planifie bien son travail ; résultats stables et sans surprises.",                                   "isFavorite": false, "userId": null },
+        { "id": "app19", "level": "Satisfaisant –",      "comment": "Bonne organisation ; quelques retards ponctuels vite corrigés.",                                     "isFavorite": false, "userId": null },
+        { "id": "app20", "level": "Satisfaisant",        "comment": "Livraisons constantes et de qualité conforme aux attentes.",                                         "isFavorite": false, "userId": null },
+        { "id": "app21", "level": "Satisfaisant +",      "comment": "Cherche à améliorer ses méthodes ; fiabilité en hausse.",                                           "isFavorite": false, "userId": null },
+        { "id": "app22", "level": "En amélioration",     "comment": "Intègre rapidement les retours ; progression visible.",                                             "isFavorite": false, "userId": null },
+        { "id": "app23", "level": "Assez bon",           "comment": "Livrables de qualité, communication proactive, délais maîtrisés.",                                  "isFavorite": false, "userId": null },
+        { "id": "app24", "level": "Bon",                 "comment": "Applique rigoureusement les consignes ; travail reconnu pour sa fiabilité.",                         "isFavorite": false, "userId": null },
+        { "id": "app25", "level": "Bon +",               "comment": "Constance élevée ; partage volontiers ses bonnes pratiques.",                                        "isFavorite": false, "userId": null },
+        { "id": "app26", "level": "Approfondi",          "comment": "Analyse les risques et propose des solutions avant qu’ils n’apparaissent.",                         "isFavorite": false, "userId": null },
+        { "id": "app27", "level": "Compétent",           "comment": "Organisation solide, travail clair et bien présenté.",                                              "isFavorite": false, "userId": null },
+        { "id": "app28", "level": "Compétent +",         "comment": "Suit des indicateurs de qualité et les améliore régulièrement.",                                     "isFavorite": false, "userId": null },
+        { "id": "app29", "level": "Plutôt bon",          "comment": "Gère plusieurs tâches sans sacrifier la qualité.",                                                 "isFavorite": false, "userId": null },
+        { "id": "app30", "level": "Plutôt bon +",        "comment": "Optimise ses méthodes, livrables toujours prêts en temps voulu.",                                   "isFavorite": false, "userId": null },
+        { "id": "app31", "level": "Très satisfaisant",   "comment": "Travail fiable et rarement à corriger ; sert d’exemple au groupe.",                                  "isFavorite": false, "userId": null },
+        { "id": "app32", "level": "Très bon",            "comment": "Anticipe les besoins ; retours très positifs des parties prenantes.",                               "isFavorite": false, "userId": null },
+        { "id": "app33", "level": "Très bon +",          "comment": "Diffuse une culture de qualité autour de lui ; leadership reconnu.",                                 "isFavorite": false, "userId": null },
+        { "id": "app34", "level": "Remarquable",         "comment": "Met en place des habitudes qui garantissent la sérénité du projet.",                                "isFavorite": false, "userId": null },
+        { "id": "app35", "level": "Avancé",              "comment": "Fait progresser l’équipe en simplifiant et fiabilisant les méthodes.",                              "isFavorite": false, "userId": null },
+        { "id": "app36", "level": "Quasi excellent",     "comment": "Livrables impeccables, même sous forte pression.",                                                  "isFavorite": false, "userId": null },
+        { "id": "app37", "level": "Excellent",           "comment": "Fiabilité exemplaire ; propose des améliorations qui font gagner du temps à tous.",                  "isFavorite": false, "userId": null },
+        { "id": "app38", "level": "Exceptionnel",        "comment": "Transforme durablement la qualité et l’efficacité des projets.",                                     "isFavorite": false, "userId": null },
+        { "id": "app39", "level": "Extraordinaire",      "comment": "Référence de sérieux ; entraîne l’organisation vers l’excellence durable.",                          "isFavorite": false, "userId": null },
+        { "id": "app40", "level": "Légendaire",          "comment": "Modèle de fiabilité reconnu ; ses méthodes inspirent au-delà de l’équipe.",                          "isFavorite": false, "userId": null }
+      ]
+    },
+
+
+    {
+      "id": "cat5",
+      "name": "Participation",
+      "image": "🗣️",
+      "appreciations": [
+        { "id": "app1",  "level": "Absent",             "comment": "Ne participe jamais, aucune intervention ni présence remarquée.", "isFavorite": false, "userId": null },
+        { "id": "app2",  "level": "Très insuffisant",   "comment": "Participation quasi nulle, ne s'exprime pas et ne s'implique pas.", "isFavorite": false, "userId": null },
+        { "id": "app3",  "level": "Insuffisant",        "comment": "Intervient très rarement, ne prend pas part aux discussions.", "isFavorite": false, "userId": null },
+        { "id": "app4",  "level": "Critique",           "comment": "Participation très faible, ne répond que sous contrainte.", "isFavorite": false, "userId": null },
+        { "id": "app5",  "level": "Très faible",        "comment": "S'exprime à peine, ne contribue pas aux échanges collectifs.", "isFavorite": false, "userId": null },
+        { "id": "app6",  "level": "Faible",             "comment": "Participation limitée, se contente d'écouter sans intervenir.", "isFavorite": false, "userId": null },
+        { "id": "app7",  "level": "Médiocre",           "comment": "Intervient rarement, manque d'intérêt pour la participation.", "isFavorite": false, "userId": null },
+        { "id": "app8",  "level": "Irrégulier",         "comment": "Participation très inconstante, parfois présent mais souvent effacé.", "isFavorite": false, "userId": null },
+        { "id": "app9",  "level": "Limité",             "comment": "Participe uniquement lorsqu'on l'interroge directement.", "isFavorite": false, "userId": null },
+        { "id": "app10", "level": "Passable –",         "comment": "Participation minimale, interventions peu pertinentes.", "isFavorite": false, "userId": null },
+        { "id": "app11", "level": "Passable",           "comment": "Participe de temps en temps, mais sans réelle implication.", "isFavorite": false, "userId": null },
+        { "id": "app12", "level": "Passable +",         "comment": "Commence à s'exprimer, mais reste discret dans le groupe.", "isFavorite": false, "userId": null },
+        { "id": "app13", "level": "Acceptable",         "comment": "Participation correcte, répond aux sollicitations sans aller plus loin.", "isFavorite": false, "userId": null },
+        { "id": "app14", "level": "En progrès",         "comment": "Montre des efforts pour participer davantage, progrès visibles.", "isFavorite": false, "userId": null },
+        { "id": "app15", "level": "Modeste",            "comment": "Participation modeste mais régulière, commence à s'affirmer.", "isFavorite": false, "userId": null },
+        { "id": "app16", "level": "Correct",            "comment": "Participe correctement, interventions pertinentes mais peu nombreuses.", "isFavorite": false, "userId": null },
+        { "id": "app17", "level": "Correct +",          "comment": "Participation régulière, commence à prendre la parole spontanément.", "isFavorite": false, "userId": null },
+        { "id": "app18", "level": "Stable",             "comment": "Participation stable, s'exprime avec assurance lors des échanges.", "isFavorite": false, "userId": null },
+        { "id": "app19", "level": "Satisfaisant –",     "comment": "Bonne participation, parfois freinée par un manque de confiance.", "isFavorite": false, "userId": null },
+        { "id": "app20", "level": "Satisfaisant",       "comment": "Participe activement, propose des idées et répond aux questions.", "isFavorite": false, "userId": null },
+        { "id": "app21", "level": "Satisfaisant +",     "comment": "Participation dynamique, intervient de façon constructive.", "isFavorite": false, "userId": null },
+        { "id": "app22", "level": "Fiable",             "comment": "Toujours présent dans les échanges, apporte des contributions fiables.", "isFavorite": false, "userId": null },
+        { "id": "app23", "level": "Responsable",        "comment": "Prend la parole à bon escient, encourage la participation du groupe.", "isFavorite": false, "userId": null },
+        { "id": "app24", "level": "Assez bon",          "comment": "Participation régulière et pertinente, favorise l'échange d'idées.", "isFavorite": false, "userId": null },
+        { "id": "app25", "level": "Bon",                "comment": "Participe activement, propose des solutions et aide ses pairs.", "isFavorite": false, "userId": null },
+        { "id": "app26", "level": "Bon +",              "comment": "Intervient souvent, dynamise les discussions et motive le groupe.", "isFavorite": false, "userId": null },
+        { "id": "app27", "level": "Méthodique",         "comment": "Participation organisée, structure les échanges et fait avancer le débat.", "isFavorite": false, "userId": null },
+        { "id": "app28", "level": "Appliqué",           "comment": "Toujours impliqué, prépare ses interventions et partage ses connaissances.", "isFavorite": false, "userId": null },
+        { "id": "app29", "level": "Plutôt bon",         "comment": "Participation forte, sait écouter et rebondir sur les idées des autres.", "isFavorite": false, "userId": null },
+        { "id": "app30", "level": "Plutôt bon +",       "comment": "Participe avec enthousiasme, encourage la prise de parole collective.", "isFavorite": false, "userId": null },
+        { "id": "app31", "level": "Très satisfaisant",  "comment": "Participation remarquable, toujours prêt à intervenir de façon pertinente.", "isFavorite": false, "userId": null },
+        { "id": "app32", "level": "Très bon",           "comment": "Très actif dans les échanges, apporte des idées originales et constructives.", "isFavorite": false, "userId": null },
+        { "id": "app33", "level": "Très bon +",         "comment": "Participation exemplaire, anime les discussions et valorise chaque membre.", "isFavorite": false, "userId": null },
+        { "id": "app34", "level": "Remarquable",        "comment": "Toujours force de proposition, sait fédérer autour de ses interventions.", "isFavorite": false, "userId": null },
+        { "id": "app35", "level": "Avancé",             "comment": "Participation avancée, prend des initiatives et relance les débats.", "isFavorite": false, "userId": null },
+        { "id": "app36", "level": "Engagé",             "comment": "Très engagé, intervient avec pertinence et dynamisme dans tous les échanges.", "isFavorite": false, "userId": null },
+        { "id": "app37", "level": "Exemplaire",         "comment": "Participation exemplaire, inspire les autres à s'exprimer et à s'impliquer.", "isFavorite": false, "userId": null },
+        { "id": "app38", "level": "Exceptionnel",       "comment": "Participation exceptionnelle, moteur du groupe dans toutes les situations.", "isFavorite": false, "userId": null },
+        { "id": "app39", "level": "Inspirant",          "comment": "Sa participation inspire et entraîne durablement ses pairs.", "isFavorite": false, "userId": null },
+        { "id": "app40", "level": "Légendaire",         "comment": "Participation hors norme, référence absolue pour tous en matière d'implication collective.", "isFavorite": false, "userId": null }
+      ]
+    },
+
+    {
+      "id": "cat6",
+      "name": "Motivation",
+      "image": "🔥",
+      "appreciations": [
+        { "id": "app1",  "level": "Absent",             "comment": "Aucune motivation visible, ne manifeste aucun intérêt pour les activités proposées.", "isFavorite": false, "userId": null },
+        { "id": "app2",  "level": "Très insuffisant",   "comment": "Manque total de motivation, doit être constamment relancé pour participer.", "isFavorite": false, "userId": null },
+        { "id": "app3",  "level": "Insuffisant",        "comment": "Motivation très faible, se désengage rapidement face aux difficultés.", "isFavorite": false, "userId": null },
+        { "id": "app4",  "level": "Critique",           "comment": "Démontre peu d'intérêt, abandonne facilement les tâches commencées.", "isFavorite": false, "userId": null },
+        { "id": "app5",  "level": "Très faible",        "comment": "Peu motivé, ne cherche pas à s'impliquer ou à progresser.", "isFavorite": false, "userId": null },
+        { "id": "app6",  "level": "Faible",             "comment": "Manque d'enthousiasme, participe sans conviction.", "isFavorite": false, "userId": null },
+        { "id": "app7",  "level": "Médiocre",           "comment": "Motivation irrégulière, s'investit uniquement sous contrainte.", "isFavorite": false, "userId": null },
+        { "id": "app8",  "level": "Irrégulier",         "comment": "Motivation fluctuante, alterne entre implication et désintérêt.", "isFavorite": false, "userId": null },
+        { "id": "app9",  "level": "Limité",             "comment": "S'implique peu, motivation présente uniquement pour les tâches faciles.", "isFavorite": false, "userId": null },
+        { "id": "app10", "level": "Passable –",         "comment": "Montre parfois de la motivation mais se décourage vite.", "isFavorite": false, "userId": null },
+        { "id": "app11", "level": "Passable",           "comment": "Motivation suffisante pour accomplir le minimum requis.", "isFavorite": false, "userId": null },
+        { "id": "app12", "level": "Passable +",         "comment": "Fait preuve d'une motivation correcte, mais manque de constance.", "isFavorite": false, "userId": null },
+        { "id": "app13", "level": "Acceptable",         "comment": "Motivation présente mais limitée à certains sujets ou moments.", "isFavorite": false, "userId": null },
+        { "id": "app14", "level": "En progrès",         "comment": "Montre des signes d'amélioration dans sa motivation et son engagement.", "isFavorite": false, "userId": null },
+        { "id": "app15", "level": "Modeste",            "comment": "Motivation modérée, commence à s'impliquer davantage.", "isFavorite": false, "userId": null },
+        { "id": "app16", "level": "Correct",            "comment": "Motivation correcte, participe activement quand le sujet l'intéresse.", "isFavorite": false, "userId": null },
+        { "id": "app17", "level": "Correct +",          "comment": "S'investit avec sérieux, motivation stable sur la durée.", "isFavorite": false, "userId": null },
+        { "id": "app18", "level": "Stable",             "comment": "Motivation constante, s'engage dans la plupart des activités.", "isFavorite": false, "userId": null },
+        { "id": "app19", "level": "Satisfaisant –",     "comment": "Bonne motivation, parfois freinée par des difficultés ponctuelles.", "isFavorite": false, "userId": null },
+        { "id": "app20", "level": "Satisfaisant",       "comment": "Motivation satisfaisante, participe avec entrain et régularité.", "isFavorite": false, "userId": null },
+        { "id": "app21", "level": "Satisfaisant +",     "comment": "Montre une motivation solide, s'investit même dans les tâches complexes.", "isFavorite": false, "userId": null },
+        { "id": "app22", "level": "Fiable",             "comment": "Toujours motivé, encourage les autres à s'impliquer.", "isFavorite": false, "userId": null },
+        { "id": "app23", "level": "Responsable",        "comment": "Motivation responsable, prend à cœur la réussite collective.", "isFavorite": false, "userId": null },
+        { "id": "app24", "level": "Assez bon",          "comment": "Bonne motivation, sait se remotiver en cas de difficulté.", "isFavorite": false, "userId": null },
+        { "id": "app25", "level": "Bon",                "comment": "Motivation évidente, s'implique avec énergie et constance.", "isFavorite": false, "userId": null },
+        { "id": "app26", "level": "Bon +",              "comment": "Toujours motivé, entraîne les autres dans une dynamique positive.", "isFavorite": false, "userId": null },
+        { "id": "app27", "level": "Méthodique",         "comment": "Motivation structurée, planifie son travail avec enthousiasme.", "isFavorite": false, "userId": null },
+        { "id": "app28", "level": "Appliqué",           "comment": "Motivation appliquée, cherche à progresser et à s'améliorer.", "isFavorite": false, "userId": null },
+        { "id": "app29", "level": "Plutôt bon",         "comment": "Motivation forte, relève les défis avec détermination.", "isFavorite": false, "userId": null },
+        { "id": "app30", "level": "Plutôt bon +",       "comment": "Toujours motivé, même face aux difficultés, attitude exemplaire.", "isFavorite": false, "userId": null },
+        { "id": "app31", "level": "Très satisfaisant",  "comment": "Motivation remarquable, s'investit pleinement dans tous les projets.", "isFavorite": false, "userId": null },
+        { "id": "app32", "level": "Très bon",           "comment": "Très motivé, encourage et soutient ses pairs.", "isFavorite": false, "userId": null },
+        { "id": "app33", "level": "Très bon +",         "comment": "Motivation contagieuse, dynamise le groupe par son enthousiasme.", "isFavorite": false, "userId": null },
+        { "id": "app34", "level": "Remarquable",        "comment": "Motivation remarquable, ne baisse jamais les bras.", "isFavorite": false, "userId": null },
+        { "id": "app35", "level": "Avancé",             "comment": "Motivation avancée, prend des initiatives pour progresser.", "isFavorite": false, "userId": null },
+        { "id": "app36", "level": "Engagé",             "comment": "Toujours engagé, cherche à dépasser les attentes.", "isFavorite": false, "userId": null },
+        { "id": "app37", "level": "Exemplaire",         "comment": "Motivation exemplaire, inspire l'ensemble du groupe.", "isFavorite": false, "userId": null },
+        { "id": "app38", "level": "Exceptionnel",       "comment": "Motivation exceptionnelle, moteur du groupe dans toutes les situations.", "isFavorite": false, "userId": null },
+        { "id": "app39", "level": "Inspirant",          "comment": "Sa motivation inspire et entraîne durablement ses pairs.", "isFavorite": false, "userId": null },
+        { "id": "app40", "level": "Légendaire",         "comment": "Motivation hors norme, référence absolue pour tous en matière d'engagement.", "isFavorite": false, "userId": null }
+      ]
+    },
+
+    {
+      "id": "cat7",
+      "name": "Implication",
+      "image": "💪",
+      "appreciations": [
+        { "id": "app1",  "level": "Absent",             "comment": "Ne participe quasiment jamais aux activités, contributions nulles.",                                                    "isFavorite": false, "userId": null },
+        { "id": "app2",  "level": "Très insuffisant",   "comment": "Présence irrégulière et implication presque inexistante.",                                                             "isFavorite": false, "userId": null },
+        { "id": "app3",  "level": "Insuffisant",        "comment": "Participe rarement, souvent seulement sur demande expresse.",                                                         "isFavorite": false, "userId": null },
+        { "id": "app4",  "level": "Très faible",        "comment": "Fait le strict minimum ; montre peu d'intérêt pour les objectifs collectifs.",                                         "isFavorite": false, "userId": null },
+        { "id": "app5",  "level": "Faible",             "comment": "Implication sporadique, motivation fluctuante.",                                                                      "isFavorite": false, "userId": null },
+        { "id": "app6",  "level": "Médiocre",           "comment": "Présence correcte mais participation timide ; aucune initiative notoire.",                                             "isFavorite": false, "userId": null },
+        { "id": "app7",  "level": "Limité",             "comment": "Exécute les tâches demandées sans aller plus loin ni proposer d’idées nouvelles.",                                      "isFavorite": false, "userId": null },
+        { "id": "app8",  "level": "Passable –",         "comment": "Commence à prendre part mais reste globalement en retrait.",                                                          "isFavorite": false, "userId": null },
+        { "id": "app9",  "level": "Passable",           "comment": "Participe aux échanges essentiels, toutefois sans grande énergie.",                                                   "isFavorite": false, "userId": null },
+        { "id": "app10", "level": "Passable +",         "comment": "Montre des signes d’engagement ponctuels et de volonté de contribuer.",                                               "isFavorite": false, "userId": null },
+        { "id": "app11", "level": "Acceptable",         "comment": "Respecte les attentes de base et répond présent lorsqu’on le sollicite.",                                             "isFavorite": false, "userId": null },
+        { "id": "app12", "level": "En progrès",         "comment": "Implication de plus en plus régulière, accepte les retours pour avancer.",                                            "isFavorite": false, "userId": null },
+        { "id": "app13", "level": "Modeste",            "comment": "S’implique lorsqu’on le sollicite ; attitude coopérative et ouverte.",                                                "isFavorite": false, "userId": null },
+        { "id": "app14", "level": "Correct",            "comment": "Participe avec constance, même si les initiatives personnelles restent limitées.",                                     "isFavorite": false, "userId": null },
+        { "id": "app15", "level": "Correct +",          "comment": "Fiable et présent ; apporte parfois des idées constructives.",                                                        "isFavorite": false, "userId": null },
+        { "id": "app16", "level": "Fiable",             "comment": "Toujours au rendez-vous, soutient activement le groupe quand nécessaire.",                                            "isFavorite": false, "userId": null },
+        { "id": "app17", "level": "Satisfaisant –",     "comment": "Engagé dans la plupart des activités ; intervient à bon escient.",                                                    "isFavorite": false, "userId": null },
+        { "id": "app18", "level": "Satisfaisant",       "comment": "Implication continue et contributions de qualité.",                                                                   "isFavorite": false, "userId": null },
+        { "id": "app19", "level": "Satisfaisant +",     "comment": "Va au-delà des attentes sur certains sujets et montre une vraie fiabilité.",                                          "isFavorite": false, "userId": null },
+        { "id": "app20", "level": "En amélioration",    "comment": "Recherche activement des façons d’aider davantage et d’améliorer le travail commun.",                                 "isFavorite": false, "userId": null },
+        { "id": "app21", "level": "Assez bon",          "comment": "Participe aux débats et propose des solutions pratiques.",                                                            "isFavorite": false, "userId": null },
+        { "id": "app22", "level": "Bon",                "comment": "Montre un réel intérêt et prend des initiatives utiles au groupe.",                                                   "isFavorite": false, "userId": null },
+        { "id": "app23", "level": "Bon +",              "comment": "Apporte énergie et motivation ; entraîne souvent les autres à suivre.",                                               "isFavorite": false, "userId": null },
+        { "id": "app24", "level": "Approfondi",         "comment": "Investit du temps supplémentaire pour améliorer les livrables et les méthodes.",                                      "isFavorite": false, "userId": null },
+        { "id": "app25", "level": "Investi",            "comment": "Prend en charge des tâches additionnelles de son propre chef.",                                                      "isFavorite": false, "userId": null },
+        { "id": "app26", "level": "Dynamique",          "comment": "Anime les réunions et stimule la collaboration entre les membres.",                                                  "isFavorite": false, "userId": null },
+        { "id": "app27", "level": "Proactif",           "comment": "Anticipe les besoins de l’équipe et agit sans attendre qu’on le lui demande.",                                       "isFavorite": false, "userId": null },
+        { "id": "app28", "level": "Très bon",           "comment": "Implication forte, contributions souvent déterminantes pour la progression.",                                         "isFavorite": false, "userId": null },
+        { "id": "app29", "level": "Très bon +",         "comment": "Montre un leadership naturel dans les projets ; motive et coordonne.",                                               "isFavorite": false, "userId": null },
+        { "id": "app30", "level": "Remarquable",        "comment": "Engagement constant et impact visible sur la réussite collective.",                                                  "isFavorite": false, "userId": null },
+        { "id": "app31", "level": "Engagé",             "comment": "Volontaire pour relever les défis ; inspire confiance par sa fiabilité.",                                            "isFavorite": false, "userId": null },
+        { "id": "app32", "level": "Avancé",             "comment": "Porte des initiatives transversales et bénéficie clairement à l’équipe.",                                             "isFavorite": false, "userId": null },
+        { "id": "app33", "level": "Implication forte",  "comment": "Veille à la réussite collective ; soutien multidimensionnel aux projets.",                                           "isFavorite": false, "userId": null },
+        { "id": "app34", "level": "Quasi excellent",    "comment": "Toujours présent et réactif, transforme les idées en actions concrètes.",                                            "isFavorite": false, "userId": null },
+        { "id": "app35", "level": "Excellent",          "comment": "Engagement exemplaire ; dépasse régulièrement les objectifs fixés.",                                                 "isFavorite": false, "userId": null },
+        { "id": "app36", "level": "Exceptionnel",       "comment": "Dynamise l’équipe par son énergie et sa détermination, même dans l’adversité.",                                      "isFavorite": false, "userId": null },
+        { "id": "app37", "level": "Extraordinaire",     "comment": "Fait évoluer la dynamique de groupe ; ouvre de nouvelles opportunités.",                                             "isFavorite": false, "userId": null },
+        { "id": "app38", "level": "Passionné",          "comment": "Transmet son enthousiasme et mobilise autour de projets ambitieux.",                                                "isFavorite": false, "userId": null },
+        { "id": "app39", "level": "Inspirant",          "comment": "Sa présence dynamise continuellement le groupe et encourage l’excellence.",                                         "isFavorite": false, "userId": null },
+        { "id": "app40", "level": "Légendaire",         "comment": "Implication hors norme ; référence durable pour tous en matière d’engagement.",                                      "isFavorite": false, "userId": null }
+      ]
+    },
+
+    {
+      "id": "cat8",
+      "name": "Sérieux",
+      "image": "🧭",
+      "appreciations": [
+        { "id": "app1", "level": "Absent",             "comment": "Aucune implication constatée, attitude détachée des responsabilités attendues.",                          "isFavorite": false, "userId": null },
+        { "id": "app2", "level": "Très insuffisant",   "comment": "Ne prend pas ses engagements au sérieux ; nombreux manquements non justifiés.",                           "isFavorite": false, "userId": null },
+        { "id": "app3", "level": "Insuffisant",        "comment": "Comportement négligent, oublis fréquents et manque d’assiduité.",                                        "isFavorite": false, "userId": null },
+        { "id": "app4", "level": "Critique",           "comment": "Manque de rigueur évident ; ne respecte ni les consignes ni les échéances.",                            "isFavorite": false, "userId": null },
+        { "id": "app5", "level": "Très faible",        "comment": "Comportement désinvolte ; aborde les tâches sans concentration ni constance.",                          "isFavorite": false, "userId": null },
+        { "id": "app6", "level": "Faible",             "comment": "Respect partiel des consignes ; sérieux très fluctuant selon les situations.",                           "isFavorite": false, "userId": null },
+        { "id": "app7", "level": "Médiocre",           "comment": "Fait acte de présence mais manque clairement d’engagement et de méthode.",                              "isFavorite": false, "userId": null },
+        { "id": "app8", "level": "Irrégulier",         "comment": "Montre parfois du sérieux mais sans régularité ; oublis fréquents.",                                     "isFavorite": false, "userId": null },
+        { "id": "app9", "level": "Limité",             "comment": "Suit globalement le cadre mais avec peu d’attention ou de rigueur personnelle.",                       "isFavorite": false, "userId": null },
+        { "id": "app10","level": "Passable –",         "comment": "Fait l’essentiel sans approfondir, attitude sérieuse mais minimale.",                                    "isFavorite": false, "userId": null },
+        { "id": "app11","level": "Passable",           "comment": "Comportement généralement convenable, mais manque de constance et de préparation.",                    "isFavorite": false, "userId": null },
+        { "id": "app12","level": "Passable +",         "comment": "Prend certaines choses au sérieux mais oublie ou bâcle d'autres aspects essentiels.",                  "isFavorite": false, "userId": null },
+        { "id": "app13","level": "Acceptable",         "comment": "Attitude globalement sérieuse ; respecte les règles de base, sans plus.",                               "isFavorite": false, "userId": null },
+        { "id": "app14","level": "En progrès",         "comment": "S’améliore dans son organisation et dans l’attention portée à ses tâches.",                             "isFavorite": false, "userId": null },
+        { "id": "app15","level": "Modeste",            "comment": "Présente un comportement correct dans les moments clés, mais manque de régularité.",                    "isFavorite": false, "userId": null },
+        { "id": "app16","level": "Correct",            "comment": "Respecte ses engagements de façon constante, sans négligence manifeste.",                               "isFavorite": false, "userId": null },
+        { "id": "app17","level": "Correct +",          "comment": "Fiable et ponctuel, attitude sérieuse visible dans la majorité des situations.",                        "isFavorite": false, "userId": null },
+        { "id": "app18","level": "Stable",             "comment": "Applique une rigueur constante dans son travail ; présence régulière et soignée.",                      "isFavorite": false, "userId": null },
+        { "id": "app19","level": "Satisfaisant –",     "comment": "Comportement professionnel la plupart du temps, quelques relâchements ponctuels.",                      "isFavorite": false, "userId": null },
+        { "id": "app20","level": "Satisfaisant",       "comment": "Sérieux globalement constant, respecte les délais et consignes attendus.",                             "isFavorite": false, "userId": null },
+        { "id": "app21","level": "Satisfaisant +",     "comment": "Soigne son travail, est ponctuel et reste concentré sur les objectifs.",                               "isFavorite": false, "userId": null },
+        { "id": "app22","level": "Fiable",             "comment": "On peut compter sur lui pour rendre un travail sérieux et cohérent.",                                  "isFavorite": false, "userId": null },
+        { "id": "app23","level": "Responsable",        "comment": "Démontre une forte conscience des enjeux et une attitude professionnelle affirmée.",                   "isFavorite": false, "userId": null },
+        { "id": "app24","level": "Assez bon",          "comment": "Travail appliqué, comportement mature et aligné sur les attentes.",                                     "isFavorite": false, "userId": null },
+        { "id": "app25","level": "Bon",                "comment": "Sérieux constant, s’implique dans ses missions avec rigueur.",                                         "isFavorite": false, "userId": null },
+        { "id": "app26","level": "Bon +",              "comment": "Attitude fiable et proactive, sait rester concentré sur ses priorités.",                               "isFavorite": false, "userId": null },
+        { "id": "app27","level": "Méthodique",         "comment": "Travail toujours préparé, rigoureux dans son approche et ses suivis.",                                 "isFavorite": false, "userId": null },
+        { "id": "app28","level": "Appliqué",           "comment": "Travaille avec soin et précision, même dans les tâches les plus simples.",                             "isFavorite": false, "userId": null },
+        { "id": "app29","level": "Plutôt bon",         "comment": "Fiabilité évidente ; tient ses engagements avec constance et clarté.",                                 "isFavorite": false, "userId": null },
+        { "id": "app30","level": "Plutôt bon +",       "comment": "Montre une exigence personnelle élevée et veille à rendre un travail irréprochable.",                  "isFavorite": false, "userId": null },
+        { "id": "app31","level": "Très satisfaisant",  "comment": "Investi et concentré, donne toujours le meilleur de lui-même dans son travail.",                      "isFavorite": false, "userId": null },
+        { "id": "app32","level": "Très bon",           "comment": "Sérieux remarquable, s'assure que chaque tâche est menée avec méthode et soin.",                       "isFavorite": false, "userId": null },
+        { "id": "app33","level": "Très bon +",         "comment": "Toujours fiable, toujours prêt, attitude irréprochable au quotidien.",                                "isFavorite": false, "userId": null },
+        { "id": "app34","level": "Remarquable",        "comment": "Modèle de rigueur et de professionnalisme pour les autres membres du groupe.",                         "isFavorite": false, "userId": null },
+        { "id": "app35","level": "Avancé",             "comment": "Organisé, ponctuel, rigoureux : une rigueur qui porte les projets vers le haut.",                      "isFavorite": false, "userId": null },
+        { "id": "app36","level": "Engagé",             "comment": "Prend ses responsabilités très à cœur et agit avec une éthique irréprochable.",                       "isFavorite": false, "userId": null },
+        { "id": "app37","level": "Exemplaire",         "comment": "Toujours sérieux, même dans les imprévus ; inspire confiance et respect.",                             "isFavorite": false, "userId": null },
+        { "id": "app38","level": "Exceptionnel",       "comment": "Allie constance, fiabilité et précision dans toutes ses actions.",                                     "isFavorite": false, "userId": null },
+        { "id": "app39","level": "Inspirant",          "comment": "Son attitude rigoureuse et engagée crée une dynamique positive autour de lui.",                        "isFavorite": false, "userId": null },
+        { "id": "app40","level": "Légendaire",         "comment": "Référence de sérieux absolu ; marque durablement les projets et les personnes avec qui il collabore.", "isFavorite": false, "userId": null }
+      ]
+    },
+
+    {
+      "id": "cat9",
+      "name": "Autonomie",
+      "image": "🦅",
+      "appreciations": [
+        { "id": "app1",  "level": "Dépendant total",         "comment": "Ne peut rien faire sans assistance constante, incapable de prendre des initiatives.", "isFavorite": false, "userId": null },
+        { "id": "app2",  "level": "Très insuffisant",        "comment": "A besoin d'être guidé à chaque étape, ne sait pas avancer seul.", "isFavorite": false, "userId": null },
+        { "id": "app3",  "level": "Insuffisant",             "comment": "Difficulté à travailler sans supervision rapprochée, hésite à prendre des décisions.", "isFavorite": false, "userId": null },
+        { "id": "app4",  "level": "Critique",                "comment": "Ne prend aucune initiative, attend systématiquement des instructions.", "isFavorite": false, "userId": null },
+        { "id": "app5",  "level": "Très faible",             "comment": "Peu autonome, sollicite fréquemment l'aide des autres pour avancer.", "isFavorite": false, "userId": null },
+        { "id": "app6",  "level": "Faible",                  "comment": "Réalise difficilement des tâches simples sans accompagnement.", "isFavorite": false, "userId": null },
+        { "id": "app7",  "level": "Médiocre",                "comment": "Manque d'assurance, a besoin de validation régulière pour progresser.", "isFavorite": false, "userId": null },
+        { "id": "app8",  "level": "Irrégulier",              "comment": "Autonomie très variable, dépend du contexte ou des tâches confiées.", "isFavorite": false, "userId": null },
+        { "id": "app9",  "level": "Limité",                  "comment": "Peut travailler seul sur des tâches simples, mais bloque vite sur les difficultés.", "isFavorite": false, "userId": null },
+        { "id": "app10", "level": "Passable –",              "comment": "Commence à gagner en autonomie mais reste hésitant sur les sujets nouveaux.", "isFavorite": false, "userId": null },
+        { "id": "app11", "level": "Passable",                "comment": "Peut gérer des tâches courantes seul, mais sollicite de l'aide pour les imprévus.", "isFavorite": false, "userId": null },
+        { "id": "app12", "level": "Passable +",              "comment": "Montre des signes d'autonomie, mais manque encore de confiance sur certains points.", "isFavorite": false, "userId": null },
+        { "id": "app13", "level": "Acceptable",              "comment": "Travaille seul sur la plupart des tâches, mais a besoin de validation ponctuelle.", "isFavorite": false, "userId": null },
+        { "id": "app14", "level": "En progrès",              "comment": "Fait preuve d'une autonomie croissante, apprend à gérer les imprévus.", "isFavorite": false, "userId": null },
+        { "id": "app15", "level": "Modeste",                 "comment": "Commence à prendre des initiatives simples, progresse dans la gestion autonome.", "isFavorite": false, "userId": null },
+        { "id": "app16", "level": "Correct",                 "comment": "Gère correctement ses tâches sans aide, mais hésite sur les sujets complexes.", "isFavorite": false, "userId": null },
+        { "id": "app17", "level": "Correct +",               "comment": "Autonome sur la majorité des missions, sait demander de l'aide à bon escient.", "isFavorite": false, "userId": null },
+        { "id": "app18", "level": "Stable",                  "comment": "Autonomie stable, sait organiser son travail et respecter les échéances.", "isFavorite": false, "userId": null },
+        { "id": "app19", "level": "Satisfaisant –",          "comment": "Autonome dans la gestion quotidienne, mais manque parfois d'initiative.", "isFavorite": false, "userId": null },
+        { "id": "app20", "level": "Satisfaisant",            "comment": "Travaille de façon autonome, sait s'adapter aux situations courantes.", "isFavorite": false, "userId": null },
+        { "id": "app21", "level": "Satisfaisant +",          "comment": "Prend des initiatives pertinentes, gère efficacement les imprévus.", "isFavorite": false, "userId": null },
+        { "id": "app22", "level": "Fiable",                  "comment": "Autonomie fiable, sait prioriser et organiser son travail sans supervision.", "isFavorite": false, "userId": null },
+        { "id": "app23", "level": "Responsable",             "comment": "Assume pleinement ses responsabilités, avance seul sur des sujets variés.", "isFavorite": false, "userId": null },
+        { "id": "app24", "level": "Assez bon",               "comment": "Autonome sur des tâches complexes, propose des solutions sans attendre.", "isFavorite": false, "userId": null },
+        { "id": "app25", "level": "Bon",                     "comment": "Autonomie affirmée, sait gérer son temps et ses priorités.", "isFavorite": false, "userId": null },
+        { "id": "app26", "level": "Bon +",                   "comment": "Travaille en toute autonomie, anticipe les besoins et agit en conséquence.", "isFavorite": false, "userId": null },
+        { "id": "app27", "level": "Méthodique",              "comment": "Organise son travail de façon autonome et méthodique, peu d'erreurs.", "isFavorite": false, "userId": null },
+        { "id": "app28", "level": "Appliqué",                "comment": "Autonomie appliquée, sait approfondir les sujets sans solliciter d'aide.", "isFavorite": false, "userId": null },
+        { "id": "app29", "level": "Plutôt bon",              "comment": "Autonome même sur des projets d'envergure, sait gérer les imprévus.", "isFavorite": false, "userId": null },
+        { "id": "app30", "level": "Plutôt bon +",            "comment": "Fait preuve d'une autonomie remarquable, sait transmettre ses méthodes.", "isFavorite": false, "userId": null },
+        { "id": "app31", "level": "Très satisfaisant",       "comment": "Travaille seul sur des sujets complexes, résultats fiables et réguliers.", "isFavorite": false, "userId": null },
+        { "id": "app32", "level": "Très bon",                "comment": "Autonomie très solide, sait s'auto-évaluer et ajuster son travail.", "isFavorite": false, "userId": null },
+        { "id": "app33", "level": "Très bon +",              "comment": "Toujours autonome, même dans l'urgence ou la nouveauté.", "isFavorite": false, "userId": null },
+        { "id": "app34", "level": "Remarquable",             "comment": "Autonomie remarquable, sait gérer plusieurs sujets en parallèle sans faillir.", "isFavorite": false, "userId": null },
+        { "id": "app35", "level": "Avancé",                  "comment": "Autonome sur tous les aspects, propose des axes d'amélioration spontanément.", "isFavorite": false, "userId": null },
+        { "id": "app36", "level": "Engagé",                  "comment": "Prend des initiatives ambitieuses, sait travailler sans supervision aucune.", "isFavorite": false, "userId": null },
+        { "id": "app37", "level": "Exemplaire",              "comment": "Autonomie exemplaire, inspire les autres par sa capacité à avancer seul.", "isFavorite": false, "userId": null },
+        { "id": "app38", "level": "Exceptionnel",            "comment": "Autonomie exceptionnelle, sait gérer des situations inédites sans aide.", "isFavorite": false, "userId": null },
+        { "id": "app39", "level": "Inspirant",               "comment": "Son autonomie inspire confiance et donne l'exemple à l'équipe.", "isFavorite": false, "userId": null },
+        { "id": "app40", "level": "Légendaire",              "comment": "Autonomie hors norme, référence durable pour tous en matière d'indépendance et d'initiative.", "isFavorite": false, "userId": null }
+      ]
+    }
+
+
+
+    
+    
+  ]
+}
