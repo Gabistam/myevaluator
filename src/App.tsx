@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { DataProvider } from './contexts/DataContext';
 import { AppRouter } from './routes/AppRouter';
